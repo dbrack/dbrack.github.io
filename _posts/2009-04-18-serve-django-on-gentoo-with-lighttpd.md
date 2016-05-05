@@ -8,14 +8,14 @@ In this post you'll find a step by step guide on how you can serve your [Django]
 
 Let's start by installing the required packages. As root, run the following command (flup is required for Django's init.d script)
 
-```language-bash
+```bash
 emerge flup lighttpd
 ```
 
 Next, go and grab yourself a copy of Django's [InitdScript for Gentoo](http://code.djangoproject.com/wiki/InitdScriptForGentooLinux) and give it an appropriate name. Mine is called `django-fastcgi`. Just to mention it, a version for other Linux distributions is also available [here](http://code.djangoproject.com/wiki/InitdScriptForLinux). The script is pretty self-explaining. You only have to change the DJANGO_SITES and SITES_PATH variables. The `DJANGO_SITES` variable is the name of your Django project, and the `SITES_PATH` variable is the path to your project (without a trailing slash I think).
 Let's assume the absolute path to your project is `/var/www/myproject/`. The configuration for this setup would look like this
 
-```language-python
+```python
 DJANGO_SITES="myproject"
 SITES_PATH=/var/www
 RUNFILES_PATH=/var/django/run
@@ -25,25 +25,25 @@ PORT_START=3000
 
 Now you can copy the script to the init.d directory by running
 
-```language-bash
+```bash
 cp scriptname /etc/init.d/
 ```
 
 Make sure the script is executable
 
-```language-bash
+```bash
 chmod +x /etc/init.d/scriptname
 ```
 
 Try to start the fast-cgi process like this
 
-```language-bash
+```bash
 /etc/init.d/scriptname start
 ```
 
 If you don't see any errors showing up, you can add the script to the default runlevel to start the script automatically if you have to reboot your server or so. In order to do so, simply run
 
-```language-bash
+```bash
 rc-update add scriptname default
 ```
 
@@ -51,7 +51,7 @@ Alright, still with me? Cause we're not done yet.
 We can now configure our lighttpd server. With your editor of choice, open up lighty's config file. You can find it in `/etc/lighttpd/lighttpd.conf`.
 Make sure you have the following modules enabled
 
-```language-python
+```python
 server.modules = (
 	"mod_rewrite",
 	"mod_redirect",
@@ -64,7 +64,7 @@ server.modules = (
 
 Now let's configure lighty to work with our fast-cgi process. Somewhere at the bottom of the configuration file, add the following part
 
-```language-python
+```bash
 $HTTP["host"] =~ "(^|\.)yourdomain\.com$" {
     server.document-root = "path/to/your/django/project" # same path as the SITES_PATH in the fastcgi script
     server.errorlog = "/path/to/your/logdir/yourdomain-error.log"
@@ -91,32 +91,32 @@ $HTTP["host"] =~ "(^|\.)yourdomain\.com$" {
 
 Some quick notes about this. The regex pattern at the top makes sure you can use both www.yourdomain.com and yourdomain.com to visit the site. The media alias url is used for the Django Admin site and it's media content. So change this path to wherever you have installed the Django source-code. The favicon part is optional. You only have to add that if you actually have a favicon and want to display it. As you can see, there's also another fast-cgi script mentioned in the configuration. We are going to create this file now. Open an editor and put the following line in it
 
-```language-bash
+```bash
 #!/bin/sh
 export DJANGOSETTINGSMODULE=yourproject.settings.main
 ```
 
 Place this script in your Django project folder. Also make sure it is executable
 
-```language-bash
+```bash
 chmod +x /path/to/your/docroot/yourdomain.fcgi
 ```
 
 Now try to start lighttpd
 
-```language-bash
+```bash
 /etc/init.d/lighttpd start
 ```
 
 If this works, you can also add lighttpd to the default runlevel
 
-```language-bash
+```bash
 rc-update add lighttpd default
 ```
 
 Ok, now you should be able to visit yourdomain.com and see your Django application. When I first tried this, I ran into a small problem. Sometimes, the url looked weird because it displayed the name of the fast-cgi script in it. I was able to solve this issue by adding the following line to my `settings.py` file
 
-```language-bash
+```bash
 FORCE_SCRIPT_NAME = ''
 ```
 

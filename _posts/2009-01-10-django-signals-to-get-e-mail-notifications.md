@@ -7,7 +7,7 @@ date: '2009-01-10 14:20:00'
 Django includes a signal dispatcher which allows you to get notified if some actions have taken place. So what does that mean? Let's say you are using Django's [comments framework](http://docs.djangoproject.com/en/dev/ref/contrib/comments/) and you would like to receive an E-Mail if someone has posted a comment. That's pretty easy to do actually.
 Add the following code to your `__init__.py` file in your application folder:
 
-```language-python
+```python
 from django.contrib.comments.signals import comment_will_be_posted
 from django.core.mail import send_mail
 def comment_notification(sender, **kwargs):

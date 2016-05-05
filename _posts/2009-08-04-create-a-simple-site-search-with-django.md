@@ -11,7 +11,7 @@ Having said this, let's get started.
 First we need to create a Form in our 'views.py' file.
 To do so, add the following code to your views.py file
 
-```language-python
+```python
 import django.forms as forms
 
 class SearchForm(forms.Form):
@@ -20,7 +20,7 @@ class SearchForm(forms.Form):
 
 Now we can pass this form to our template
 
-```language-python
+```python
 f = SearchForm()
 myform = {'form':f}
 ```

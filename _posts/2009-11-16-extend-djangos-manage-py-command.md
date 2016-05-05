@@ -23,13 +23,13 @@ app/
 
 As you can see above, I have already created a file called `greatcmd.py` within the commands directory. The name of the file will also be the name of our command. In this example, we would execute the command like this
 
-```language-bash
+```bash
 ./manage.py greatcmd
 ```
 
 Now let's take a look inside the greatcmd.py file
 
-```language-python
+```python
 from django.core.management.base import BaseCommand
 class Command(BaseCommand):
 	help = "This doesn't do anything yet"
