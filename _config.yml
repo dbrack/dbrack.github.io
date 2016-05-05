@@ -1,6 +1,6 @@
 # Permalinks
 #
-permalink: pretty
+permalink: /:title/
 
 gems:
   - jekyll-paginate # pagination
