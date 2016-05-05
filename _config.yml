@@ -17,7 +17,7 @@ kramdown:
 
 # Setup
 title: The-Dig
-tagline: 'Thoughts, stories and ideas'
+tagline: Thoughts, stories and ideas
 description: ''
 url: https://dbrack.github.io
 baseurl: ''
@@ -29,4 +29,7 @@ author:
   url: https://twitter.com/_bracky
 
 # Custom vars
-version: 1.0.1
+version: 1.0.3
+github:
+  repo: https://github.com/dbrack/dbrack.github.io
+analytics_id: UA-3302984-1
