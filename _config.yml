@@ -33,3 +33,4 @@ version: 1.0.3
 github:
   repo: https://github.com/dbrack/dbrack.github.io
 analytics_id: UA-3302984-1
+disqus: thedig
