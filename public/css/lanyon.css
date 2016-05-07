@@ -209,6 +209,11 @@ a.sidebar-nav-item:focus {
           user-select: none;
 }
 
+.sidebar span.sideNote {
+  font-size: 75%;
+  display: block;
+}
+
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
 .sidebar-toggle {
   position: absolute;
