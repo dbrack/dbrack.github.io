@@ -21,6 +21,11 @@ To do so, I am signing this object:
             "uid": "f27a7cecfb0d52b9e531327ea25a2319",
             "username": "dbr"
         },
+        "revoke": {
+            "sig_ids": [
+                "db3ee4b6363098b2edcc87dc42df56046984d1ab3e75f7a5d4f5211ae915f24e0f"
+            ]
+        },
         "service": {
             "hostname": "brack.io",
             "protocol": "http:"
@@ -28,10 +33,10 @@ To do so, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1462613148,
+    "ctime": 1462626684,
     "expire_in": 157680000,
-    "prev": "2edd573cb113761cdb9296e7dc037b52e650d5c581be2f8636081017941a06ad",
-    "seqno": 12,
+    "prev": "da7fe178540dcb307b4807c4244d6325ec5854eda28f88d1c125a42a4960361b",
+    "seqno": 15,
     "tag": "signature"
 }
 
@@ -41,23 +46,24 @@ which yields the signature:
 Version: Keybase OpenPGP v2.0.53
 Comment: https://keybase.io/crypto
 
-yMIhAnicrVJbSBRRGF7tgm5kF8LCKGNKU1nrnDMzZ2YWg7J7VARhQinrnDlndbB2
-ttlZL5kIYWR0EXpwoRIDgy50g4owKvNCYFpBUvpQVBJdYAuRWCEhOmP21mPn5XD+
-833f/30/f+/saR5v0oIlrYnI1bGNSf1dp6Oe4vw75+sEYtFawV8nVLLJi+2nLOIE
-Kk0q+AUAAVSoZiCVaApFhGJdokjWRUBUQgBATMEUytAgEAAZIRnJQMUEUjEIMAJI
-NIIS0AWfEDRD5cwO22bI4bJYoxiJsgxViSEoMawyhIguyYpCRYahJmoSk5DCiRVW
-xGVwc0SPsFWmxWv8EZi09w/8f/YdnZQLIkVXDGYECaAyIhqTRSgihelcEolQc4ER
-Zof0A4yjKbGFep/AC1WmwdyZuiGmPomtG5V/YoRty7EMaz+vVjhO2O+SnNqwi6pm
-JDDFDxAzRPn0OKGK2RHTCgl+yJGGY7qCUMIIQxFKqk9gNWHTZgHTRcgKVgE/bhtW
-xSURo1RWRJ4YigqGBiUa0jBTqAFEhciIYZmHM2QVEoaCKhYxUN0pahLUAdap4CY6
-GLK4NuI+9XKuGTHLQ7oTtZlQ3/24ZLonyeuZOSPZXSuPN3Xu32WzNqd4Youl6xcv
-5XWsKL3fGyt6m/nq8khHdsqb2w5o3/ppX9/QYFZsR3xn7fE1sb6yphuxovgxUvJu
-PHF42Bi+6/2WaGqaFo0vn2izG7Jbbo3WdD+RaxqOLDrTkzF+c/f8W8LNOaUTQ2Dl
-uW05tVbz9NxZyVn5voGMrTMGR79c/dg+c93XCwvb9p6Ivni2qT3SN3K912s9zCrK
-LmvMKetJlCRr7z//WNad/qF64NrS5+f7H7w6OS/vVO/Y2YKGguort1e/DDemx5sv
-PFrsEwv9T9t/FuZ0Dm4XWnaVQ09ce938XTu0MbPrYPG84aEdWfEeKbdz4ui9tM8t
-N1LRnrXrtwz80tNaExt+AxnqO0s=
-=mK5M
+yMJmAnicrVJbaBVHGD7HeGlDDVZNiBQhrg/iIcrM7Fx2D2rF1mpEJaESozYeZ3Zm
+j0vi2ePu5tSQpJa8CNUiXlAU76aStg/mSYWIxpIHr2ALBR9srGhrTn1QA97idTa1
+bz525mGY///+7//+b6Z/fEmiNDl56sEn4U9DC5NXLvzTklg5q9jeZghfthrpNqNJ
+jRyqWaowyjR50kgbAALIpO0gS9hMIiEpxxIRbgJhCQEAUoxKSKAjIAAEIYIIsKiA
+0nQBRQCZjosBN6oN18tlVZAPvFykaaktKTIJgRZWCGJFLYWQ4JgwJk1FoW3aWGHE
+dOF6P4wrtDjBQzXb83VMXzIj8t6D/591t4zQuYhx5ijHFUASJGxFTGgiprimRCa0
+Y2CoghzfoDRaisDoqDYCVfCbVGxp6GW13tBIr9E5UyksqElNYFsCKek4FpMORtIl
+FGBqW1hCrlGMuIwTiV2CIOTKhsRFWAHXaNTculnBc0bIY4PeNRYBd5r+tSgf+JHv
++M06uj6K8ulYUNSaj1FfK5F5V58RXk7ql9EFBRWEnp8z0lAjnciLCSGmSG9q4WpD
+bcp7gcp4MYIwagG94jaqEE/MmasgswgG0hEmYAJbgOmhMJbUREQ5ROeU5MhyLUtC
+B2rjMOLYpsCkUBjxRBtzfsytdfKs5tSm5XjUEiij45e+r0YnkqWJsWNGxV82Ufrh
+hP8+8uQ5416nFpy7lErbn5XN7ai6U9HbICY+PpI6tiZ1bem6V3cnnn4zPGrqk+nf
+b9rddW+rnHKfpK7XLDtz9aXTfrYhf6ims/LO+cN7eUl7sKpzeXn9yw8mzZyXrCn5
+fdFtPu3Rnw8ubq9LD9BGa7itdcyzo9t+nVY1I/yoMPTHqaOdjQu+fD6/eH/hrmz3
+D5v3/XjqXuZWeKlv+Ma2T1eN33Hz57XZuj3FFlRZ8fHgUE/17ctVZQfGFr91Z/TP
+WlT7zc72T7wVtTPrLvOng92PriX3Hn8xePq765ujuwMJ199yvjxZN+9I74n53Vu6
+6lf3k66Ohv2f//VFSfnoJV3FMmPr330NJ71bvy0+9KAn+XD1W8VDVL0=
+=/xPx
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -66,4 +72,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/dbr
 
 ==================================================================
-
