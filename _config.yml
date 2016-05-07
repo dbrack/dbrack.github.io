@@ -19,7 +19,7 @@ kramdown:
 title: The-Dig
 tagline: Thoughts, stories and ideas
 description: ''
-url: https://dbrack.github.io
+url: https://brack.io
 baseurl: ''
 paginate: 5
 
@@ -29,7 +29,7 @@ author:
   url: https://twitter.com/_bracky
 
 # Custom vars
-version: 1.0.3
+version: 1.0.4
 github:
   repo: https://github.com/dbrack/dbrack.github.io
 analytics_id: UA-3302984-1
