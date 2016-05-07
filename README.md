@@ -1,4 +1,4 @@
-# dbrack.github.io
-My Github Pages [website](https://dbrack.github.io)
+# brack.io site
+My Github Pages [website](http://brack.io)
 
 Made with [Lanyon](https://github.com/poole/lanyon)
