@@ -10,4 +10,4 @@ I currently work at [FLYNT](http://www.flynt.io) where I focus on [React](https:
 Opinions provided on this website are my own.
 
 **Contact**  
-If you want to get in touch, feel free to send me an email (me at brack.io)
+If you want to get in touch, feel free to send me an email (dominik at brack.io)
