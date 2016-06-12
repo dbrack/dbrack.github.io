@@ -9,5 +9,5 @@ I currently work at [FLYNT](http://www.flynt.io) where I focus on [React](https:
 
 Opinions provided on this website are my own.
 
-**Contact**
-If you want to get in touch, feel free to send me an email (dominik at brack.io)
+## Contact
+If you want to get in touch, feel free to shoot an email to <me@brack.io>.
