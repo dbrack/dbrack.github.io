@@ -2,7 +2,7 @@
 permalink: /:title/
 
 # Setup
-title: The-Dig
+title: Brack.io
 tagline: Thoughts, stories and ideas
 description: ''
 url: https://brack.io
@@ -25,7 +25,7 @@ author:
   url: https://twitter.com/_bracky
 
 # Custom vars
-version: 1.0.6
+version: 1.0.7
 github:
   repo: https://github.com/dbrack/dbrack.github.io
 analytics_id: UA-78462310-1

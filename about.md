@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-The-Dig is the personal website of me, Dominik. I'm a passionate Web Developer from Zurich, Switzerland. I'm interested in JavaScript, TypeScript and other great web technologies.
+Brack.io is the personal website of me, Dominik. I'm a passionate Web Developer from Zurich, Switzerland. I'm interested in JavaScript, TypeScript and other great web technologies.
 
 I currently work at [FLYNT](http://www.flynt.io) where I focus on [React](https://facebook.github.io/react) and [TypeScript](http://www.typescriptlang.org) based projects.
 
