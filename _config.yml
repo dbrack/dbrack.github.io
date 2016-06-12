@@ -22,10 +22,12 @@ kramdown:
 # About/contact
 author:
   name: Dominik Brack
-  url: https://twitter.com/_bracky
+  email: me@brack.io
+  twitter: https://twitter.com/_bracky
+  github: https://github.com/dbrack
 
 # Custom vars
-version: 1.0.9
+version: 1.1.0
 github:
   repo: https://github.com/dbrack/dbrack.github.io
 analytics_id: UA-78462310-1
