@@ -7,7 +7,7 @@ date: '2009-11-16 12:09:00'
 In Django 1.0 it's very easy to extend the default functionality of the manage.py command.
 I use it to delete the comments that have been marked as spam. The cool thing is that you can access the data model using the ORM. So, let's see how this whole thing works.
 
-First off, we need to create a 'management' folder within our application. In there, we need to create a folder called 'commands'. This is the place where we can put our Python scripts. Don't forget to create the `__init__.py` files in both folders. The directory structure should look something like this
+First off, we need to create a `management` folder within our application. In there, we need to create a folder called 'commands'. This is the place where we can put our Python scripts. Don't forget to create the `__init__.py` files in both folders. The directory structure should look something like this
 
 ```
 app/
