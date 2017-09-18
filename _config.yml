@@ -5,7 +5,7 @@ permalink: /:title/
 title: Brack.io
 tagline: Thoughts, stories and ideas
 description: ''
-url: https://brack.io
+url: https://dbrack.github.io
 baseurl: ''
 paginate: 5
 
